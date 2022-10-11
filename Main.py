@@ -14,7 +14,7 @@ def merge_sort(data) -> None:
 
     while a<len(data_left) and b<len(data_right):
       if data_left[a] <= data_right[b]:
-  
+        data[c] = data_left[a] 
         a+=1
       else:
         data[c] = data_right[b]
